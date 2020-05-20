@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+  <title>GO Corona</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg nav-style p-2 ">
+    <a class="navbar-brand pl-5" href="#"><img src="https://www.flaticon.com/premium-icon/icons/svg/2811/2811484.svg" class="img-fluid covid-img" width="40" height="40">&nbsp;&nbsp;&nbsp;COVID-19</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <i class="fa fa-bars text-light " aria-hidden="true"></i>
+   </button>
+
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto pr-5 font-weight-bold  ">
+      <li class="nav-item active ">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index3.html">India Live Update </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index2.html">World Live Update</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#symptoms">Symptoms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section-5">Prevention</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contect.html">Contact</a>
+      </li>
+    </ul>
+    <button type="button" class="btn btn-danger"  data-toggle="modal" data-target="#exampleModal">Login</button>
+
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModal" >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-warning text-danger">
+            <h5 class="modal-title text-center">Login</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    &nbsp; 
+
+    <button type="button" class="btn btn-danger"  data-toggle="modal" data-target="#exampleModa2">Sign Up</button>
+
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModa2" >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center bg-warning">
+            <h5 class="modal-title bg-warning text-danger">Sign up</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Username</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Email</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Confirm  Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Mobile number</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="modal-footer bg-warning">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    &nbsp; 
+  </div>
+</nav>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="container">
+    <div class="carousel-inner">
+      <div class="carousel-item active carol-img">
+        <img src="https://images.unsplash.com/flagged/photo-1584036561584-b03c19da874c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" class="d-block img-fluid " alt="...">
+        <div class="carousel-caption d-none d-md-block p-5">
+          <h2>Stay Home We Save</h2>
+          <button type="button" class="btn btn-primary btn-lg">Read More</button>
+          <button type="button" class="btn btn-warning btn-lg">Covid-19</button>
+        </div>
+      </div>
+      <div class="carousel-item carol-img">
+        <img src="https://ptmoney.com/wp-content/uploads/2015/08/virtual-assistant-at-home.jpg" class="d-block img-fluid " alt="...">
+        <div class="carousel-caption d-none d-md-block p-5">
+          <h2>Work Form Home</h2>
+          <button type="button" class="btn btn-warning btn-lg">How To Do</button>
+          <button type="button" class="btn btn-primary btn-lg">Read more</button>
+        </div>
+      </div>
+      <div class="carousel-item carol-img">
+        <img src="https://s3.amazonaws.com/fjwp/blog/wp-content/uploads/2018/06/19061736/10-Companies-with-Legitimate-Work-from-Home-Jobs.jpg" alt="..." class="img-fluid">
+        <div class="carousel-caption d-none d-md-block p-5">
+          <h2 class="text-dark">Keep Happy Keep Smile</h2>
+          <button type="button" class="btn btn-primary btn-lg">Click Me</button>
+          <button type="button" class="btn btn-warning btn-lg">Read more</button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<!-- <div class="img-div">
+  <img src="img/1.jpg" class="img-fluid" id="one">
+  <span class="text-1 text-span"><button class="btn btn-primary p-2">Click on me</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-warning p-2">Read more</button></span>
+  <span class="text-2 text-span " style="display: none"><h1 class="img-text">welcome to my side<br> This made by me</h1></span>
+  <span class="text-3 text-span" style="display: none"><button class="btn btn-info">Subscribe me...</button></span>
+  <span class="text-4 text-span" style="display: none"><h1 class="text-lg-right">Know Corona virus</h1></span>
+  <span class="text-5 text-span" style="display: none"><p>my name is poonam</p></span>
+  <span class="text-6 text-span" style="display: none"><button class="btn-primary">subscribe me</button></span>
+</div> -->
+<!-- ----------------section-2----------- -->
+ <!--  <section>
+    <div class="main_header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-12 order-lg-1 order-2 ">
+            <div class="left-side">
+              <img src="http://pngimg.com/uploads/coronavirus/coronavirus_PNG28.png" width="300" height="300" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-7 col-12 order-lg-1 order-1">
+            <div class="right-side">
+              <h1>Let's Stay Safe & Fight Togther Againts Cor<span class="circle"> <img src="http://pngimg.com/uploads/coronavirus/coronavirus_PNG7.png" width="80" height="50" class="img-fluid"> </span>na Virus</h1>
+            </div>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+<!-- ---------------section-3--------------- -->
+<!-- 
+  <section class="corona-update">
+      <h3 class="text-center mt-5">COVID-19 UPDATES</h3>
+      <div class="d-flex justify-content-around align-items-center pt-5"> -->
+      <!-- <div class="ppp">
+        <h1 class="count">4678488</h1>
+        <p>Passengers screened at airport</p>
+      </div>
+      <div class="ppp">
+        <h1 class="count">20000</h1>
+        <p>Active COVID-cases*</p>
+      </div>
+      <div class="ppp">
+        <h1 class="count">5000</h1>
+        <p>Cured/discharged cases</p>
+      </div>
+      <div class="ppp">
+        <h1 class="count">1000</h1>
+        <p>Death cases</p>
+      </div>    -->   
+      <!--  </div> -->
+    <!--   
+    <div class="table-responsive container-fluid">
+      <table class="table-bordered  table-striped text-center" id="tbval">
+        <tr>
+          <td>Country</td>
+          <td>TatolConfirmrd</td>
+          <td>TotalRecovered</td>
+          <td>Total Death</td>
+          <td>NewRecovered</td>
+          <td>New deaths</td>
+        </tr>
+      </table>
+      
+    </div>
+
+  </section>
+-->
+<!-- -----------------section-3----------------- -->
+  <!-- <section>
+    <div class="container-fluid pt-5 pb-5 sub-section">
+      <div class="header pt-5 pb-5" id="about-id">
+        <h2 class="text-center">About COVID-19</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-12 ml-2">
+          <img src="https://images.unsplash.com/photo-1584483766114-2cea6facdf57?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <h3 class="pt-5">What is COVID-19(Corona-Virus)</h3>
+          <p class="text-justify pt-5" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+          </p>
+        </div>
+
+      </div>  
+    </div>
+  </section>
+-->
+
+<section>
+ <div class="container">
+  <div class="header mt-5 mb-5" >
+    <h1 class="text-center pb-5 featurette-heading">About us</h1>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading d-block">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+      <p class="lead">- Follow the same steps you would take to submit content through our platform (here's a reminder on how to do it). Create an account and then submit your illustration(s) as a spark or blog (if you want to add more elements, like text or extra illustrations). Or you can post your art on your own Instagram or Twitter accounts, using the hashtag #voicesofyouth (but remember we will only be able to see your content if your account is public). .</p>
+    </div>
+    <div class="col-md-5">
+      <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+      <img src="https://png.pngtree.com/png-vector/20200413/ourlarge/pngtree-male-character-fight-coronavirus-disease-png-image_2185143.jpg"  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+    </div>
+  </div>     
+</div>
+</section>
+<!-- ------------------------section-4---------------- -->
+<section id="symptoms">
+ <div class="container-fluid pt-5 pb-5" id="img-id">
+  <div class="header mt-5 mb-5" >
+    <h1 class="text-center pb-5">Coronavirus symptoms</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-12 mt-5">
+        <figure class="text-center m-0">
+          <img src="https://image.flaticon.com/icons/svg/2707/2707325.svg" class="img-fluid" width="120" height="120">
+        </figure>
+        <figcaption class="text-center">Cough</figcaption>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-12 mt-5">
+        <figure class="text-center m-0">
+          <img src="https://image.flaticon.com/icons/svg/2750/2750775.svg" class="img-fluid" width="120" height="120">
+        </figure>
+        <figcaption class="text-center">Fever</figcaption>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-12 mt-5">
+        <figure class="text-center m-0">
+          <img src="https://image.flaticon.com/icons/svg/2750/2750754.svg" class="img-fluid" width="120" height="120">
+        </figure>
+        <figcaption class="text-center">Cold</figcaption>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-12 mt-5">
+        <figure class="text-center m-0">
+          <img src="https://image.flaticon.com/icons/svg/2750/2750740.svg" class="img-fluid" width="120" height="120">
+        </figure>
+        <figcaption class="text-center">Weakness</figcaption>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-12 mt-5">
+        <figure class="text-center m-0">
+          <img src="https://image.flaticon.com/icons/svg/2750/2750790.svg" class="img-fluid" width="120" height="120">
+        </figure>
+        <figcaption class="text-center">cough</figcaption>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-12 mt-5">
+        <figure class="text-center m-0">
+          <img src="https://image.flaticon.com/icons/svg/2750/2750854.svg" class="img-fluid" width="120" height="120">
+        </figure>
+        <figcaption class="text-center">cough</figcaption>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- ----------------------section-5--------------- -->
+<section id="section-5" class="bg-light">
+  <div class="container-fluid pt-5 pb-5">
+    <div class="header mt-5 mb-5" >
+      <h1 class="text-center pb-5">6 Steps Prevention Against Coronavirus</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+             <figure class="text-center">
+              <img src="https://image.flaticon.com/icons/svg/2806/2806631.svg" class="img-fluid" width="90" height="90">
+            </figure>
+          </div>
+          <div class="col-lg-8 col-md-8 col-12">
+            <p>Wash your hand regularly for 20 second with soap and water or alcohol-based hand rub</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+           <figure class="text-center">
+            <img src="https://image.flaticon.com/icons/svg/2806/2806637.svg" class="img-fluid" width="90" height="90">
+          </figure>
+        </div>
+        <div class="col-lg-8 col-md-8 col-12">
+          <p>Wash your hand regularly for 20 second with soap and water or alcohol-based hand rub</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-12">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+         <figure class="text-center">
+          <img src="https://image.flaticon.com/icons/svg/2806/2806625.svg" class="img-fluid" width="90" height="90">
+        </figure>
+      </div>
+      <div class="col-lg-8 col-md-8 col-12">
+        <p>Wash your hand regularly for 20 second with soap and water or alcohol-based hand rub</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-12 mt-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-12">
+       <figure class="text-center">
+        <img src="https://image.flaticon.com/icons/svg/2806/2806662.svg" class="img-fluid" width="90" height="90">
+      </figure>
+    </div>
+    <div class="col-lg-8 col-md-8 col-12">
+      <p>Wash your hand regularly for 20 second with soap and water or alcohol-based hand rub</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-12 mt-5">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-12">
+     <figure class="text-center">
+      <img src="https://image.flaticon.com/icons/svg/2806/2806640.svg" class="img-fluid" width="90" height="90">
+    </figure>
+  </div>
+  <div class="col-lg-8 col-md-8 col-12">
+    <p>Wash your hand regularly for 20 second with soap and water or alcohol-based hand rub</p>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-12 mt-5">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-12">
+     <figure class="text-center">
+      <img src="https://image.flaticon.com/icons/svg/2806/2806697.svg" class="img-fluid" width="90" height="90">
+    </figure>
+  </div>
+  <div class="col-lg-8 col-md-8 col-12">
+    <p>Wash your hand regularly for 20 second with soap and water or alcohol-based hand rub</p>
+  </div>
+</div>
+</div>              
+</div>
+
+</div>  
+</section>
+
+<!-- --------------------stay home be safe--------------- -->
+<section>
+  <div class="container-fluid" id="stayhome">
+   <div class="row">
+    <div class="col-sm-12 col-md-7 col-lg-7">
+     <h2 class="text-center text-light">Stay home. Stay safe. Save lives.</h2>
+     <br>
+     <p class="text-justify font-weight-bold text-light lead">Stay Home. Stay Safe. Save Lives. Link to www.michigan.gov/coronavirus To combat the spread of COVID-19 in Michigan, Governor Whitmer signed the “Stay Home, Stay Safe” executive order. For at least the next three weeks, all Michigan businesses and operations must temporarily suspend in-person operations.</p>
+     <br>
+     <h2 class="text-center text-light">Let's Play Ludo</h2>
+     <br>
+     <p class="font-weight-bold text-light lead">One way of doing so is to revisit the games we used to play as children in school. We’ve selected a number of indoor games which you can play with those you are spending time with in the house, not only do they help pass the time, but are great fun! We’ve all played this hand gesture game to kill time while growing.</p>
+   </div>
+
+   <div class="col-sm-12 col-md-4 col-lg-4 offset-1" id="ludo">
+    <h2 class="try" id="try">LUDO</h2>
+    <div class="dice">
+      <p>Player 1</p>
+      <img src="img/1.png" id="check1">
+    </div>
+
+    <div class="dice">
+      <p>Player 2</p>
+      <img src="img/6.png" class="ml-5" id="check2">
+    </div>
+    <div>
+      <button onclick="game()">Click me</button>
+    </div>
+  </div>
+  <div>
+
+  </div>
+</section>
+
+
+
+<!-- ----------------------footer---------------- -->
+<footer>
+  <div class="container-fluid bg-dark text-light p-3">
+    <div class="copyright text-center mt-2">
+      &copy; Made by <span class="text-danger"> &#10084;</span> <strong class="text-warning font-weight-bold"> &nbsp; POONAM JAISWAL &nbsp; </strong>  <span class="text-danger"> &#10084;</span>  All Rights Reserved 2020
+    </div>
+  </div>
+</footer>
+
+<div class="side">
+  <a href="#top" id="return-to-top"><i class="fa fa-arrow-up fa-2x" id="mybtn"></i></a>
+</div>
+
+
+<!-- Optional JavaScript -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+
+    /*var x=1;
+    function abc()
+    {
+
+      var a=document.getElementById('one');
+      a.src="img/"+x+".jpg";
+      $('.text-span').hide();
+      $('.text-'+x).show();
+      x++;
+
+
+      if(x==5)
+      {
+        x=1;
+      }
+    }
+
+    setInterval("abc()",3000);*/
+
+
+
+    mybutton = document.getElementById("mybtn");
+
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction(){
+      if (document.documentElement.scrollTop>100) {
+        mybutton.style.display = "block";
+      }
+
+      else{
+        mybutton.style.display = "none";
+      } 
+    }
+
+
+    game = () => {
+      var play1 = Math.floor(Math.random() * 6) + 1;
+      var play1dice = `img/${play1}.png`;
+      document.getElementById('check1').setAttribute('src', play1dice);
+
+      var play2 = Math.floor(Math.random() * 6) + 1;
+      var play2dice = `img/${play2}.png`;
+      document.getElementById('check2').setAttribute('src', play2dice);
+
+      if(play1 > play2)
+      { 
+        document.getElementById('try').innerHTML = "Player 1 won :)";
+      }
+      else if(play1 < play2)
+      {
+       document.getElementById('try').innerHTML = "Player 2 won :)";
+     }
+     else{
+     document.getElementById('try').innerHTML = "DRAW";
+    }
+
+
+  }
+
+
+  $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+      Counter: $(this).text()
+    }, {
+      duration: 7000,
+      easing: 'swing',
+      step: function (now) {
+        $(this).text(Math.ceil(now));
+      }
+    });
+  });
+
+  $(document).ready(function() {
+
+
+    var user_err =true;
+    var email_err =true;
+    var pass_err =true;
+    var con_pass =true;
+
+    /*--------------USER NAME-------------*/
+    $('#usercheck').keyup(function(){
+      username_check();
+    });
+
+    function username_check(){
+      var user_val = $('#usercheck').val();
+
+      if(user_val.length ==''){
+        $('#userscheak').show();
+        $('#userscheak').html("***Please fill the username***");
+        $('#userscheak').focus();
+        $('#userscheak').css("color","red");
+        user_err =false;
+        return false;
+      }
+      else{
+       $('#userscheak').hide();
+     }
+
+     if((user_val.length < 3) || (user_val.length > 15)){
+      $('#userscheak').show();
+      $('#userscheak').html("***Username length must be between 3 and 10.***");
+      $('#userscheak').focus();
+      $('#userscheak').css("color","red");
+      user_err =false;
+      return false;
+    }
+    else{
+     $('#userscheak').hide();
+   } 
+ }
+
+ /*-----------------email------------------*/
+
+ $('#emailcheak').keyup(function(){
+   email_check();
+ });
+
+
+
+ function email_check(){
+
+  var  emailstr = $('#emailcheak').val();
+
+  if(emailstr.length == ''){
+    $('#useremail').show();
+    $('#useremail').html("***Please fill the Email***");
+    $('#useremail').focus();
+    $('#useremail').css("color","red");
+    return false;
+  }
+
+  var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  if (reg.test(emailstr) == false) {
+    $('#useremail').html("***Invalid Email Address***");
+    return false;
+  }
+
+    $('#useremail').hide();
+}
+
+
+/*------------------password----------------*/
+
+
+$('#Pass').keyup(function(){
+ password_check();
+});
+
+function password_check(){
+
+  var  passstr = $('#Pass').val();
+
+  if(passstr.length == ''){
+    $('#userpass').show();
+    $('#userpass').html("***Please fill the Password***");
+    $('#userpass').focus();
+    $('#userpass').css("color","red");
+    pass_err =false;
+    return false;
+  }
+  else{
+   $('#userpass').hide();
+ }
+
+
+ if((passstr.length < 3) || (passstr.length > 15)){
+  $('#userpass').show();
+  $('#userpass').html("***Username length must be between 3 and 10.***");
+  $('#userpass').focus();
+  $('#userpass').css("color","red");
+  pass_err =false;
+  return false;
+}
+else{
+ $('#userpass').hide();
+}
+}
+
+/*-------------------conform pssword----------------------*/
+$('#conpass').keyup(function(){
+  con_passwrd();
+
+});
+
+function con_passwrd(){
+
+  var ppp = $('#conpass').val();
+  var strppp = $('#Pass').val();
+
+  if(strppp != ppp){
+   $('#userconpass').show();
+   $('#userconpass').html("*** Password are not matching.***");
+   $('#userconpass').focus();
+   $('#userconpass').css("color","red");
+   con_pass =false;
+   return false;
+ }
+ else{
+   $('#userconpass').hide();
+ }
+}
+$('#sumbitbtn').click(function(){
+
+  var user_err =true;
+  var email_err =true;
+  var pass_err =true;
+  var con_pass =true;
+
+  username_check();
+  email_check();
+  password_check();
+  con_passwrd();
+
+  if((user_err == true) && (email_err == true) && (pass_err == true) &&(con_err == true)){
+   return  true;
+ }
+ else{
+  return false;
+}
+
+});
+});
+// async function getCovidapi(){
+//    const jsondata = await fetch('https://api.covid19api.com/summary');
+
+// const jsdata = await jsondata.json();
+
+// }
+
+
+// function fetch(data){
+//   $.get('https://api.covid19api.com/summary');
+
+// function(data){
+//   var tbval = document.getElementById('tbval');
+
+//   for(var i=1; i<(data['Countries'].length);i++){
+//     var x= tbval.insertRow();
+//     x.insertCell(0);
+
+//     tbval.rows[i].cells[0].innerHTML = data['Countries'][i-1]
+//     ['Country'];
+//     tbval.rows[i].cells[0].style.background = '#7a4a91';
+//       tbval.rows[i].cells[0].style.color = '#fffSS';
+
+
+//   }
+// }
+// }
+
+
+
+
+
+
+
+
+</script>    
+</body>
+</html>
